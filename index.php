@@ -13,40 +13,40 @@
       </div>
       <div class="header-right">
     <ul>
-      <li>home</li>
-      <li>feature</li>
-      <li>access</li>
-      <li>news</li>
-      <li>contact</li>
+      <li><a href="#home">home</li>
+      <li><a href="#feature">feature</li>
+      <li><a href="#access">access</li>
+      <li><a href="#news">news</li>
+      <li><a href="#contact">contact</li>
     </ul>
       </div>
     </header>
     <main>
-      <section class="main1">
+      <section id="home"class="main1">
         <div class="main-vitual">
           <h1>MainVisual or Carousel</h1>
         </div>
       </section>
-      <section class="main2">
+      <section id="feature" class="main2">
         <div class="feature-top">
           <h1>FEATURE</h1>
         </div>
         <div class="feature-bottom">
           <div class="contents">
-            <img src="../コーポレートサイト/img/pexels-vova-krasilnikov-4199723.jpg" alt="" height="150px" width="200px">
+            <img src="../corporate/img/pexels-vova-krasilnikov-4199723.jpg"alt="" height="150px" width="200px">
             <p>ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
           </div>
           <div class="contents">
-            <img src="../コーポレートサイト/img/pexels-lisa-fotios-5378392.jpg" alt=""height="150px" width="200px">
+            <img src="../corporate/img/pexels-lisa-fotios-5378392.jpg" alt=""height="150px" width="200px">
             <p>ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
           </div>
           <div class="contents">
-            <img src="../コーポレートサイト/img/pexels-julia-kuzenkov-1132276.jpg" alt=""height="150px" width="200px">
+            <img src="../corporate/img/pexels-julia-kuzenkov-1132276.jpg" alt=""height="150px" width="200px">
             <p>ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
           </div>
         </div>
       </section>
-      <section class="main3">
+      <section id="access"class="main3">
         <div class="access">
           <h1>ACCESS</h1>
         </div>
@@ -54,7 +54,7 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8280303808788!2d139.76493611525882!3d35.68123618019432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1602615974348!5m2!1sja!2sjp" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
          </div>
       </section>
-      <section class="main4">
+      <section id="news" class="main4">
         <div class="news">
           <h1>NEWS</h1>
         </div>
@@ -84,8 +84,7 @@
           <a href="#" class="btn">News一覧へ</a>
         </div>
       </section>
-      <section>
-        <div class="main5">
+      <section id ="contact"class="main5">
         <div class="contact">
         <h1>CONTACT</h1>
       </div>
@@ -111,9 +110,6 @@
           <textarea class="Form-Item-Textarea"></textarea>
         </div>
         <input type="submit" class="Form-Btn" value="送信する">
-      </div>
-      
-
       </div>
       </section>
     </main>
